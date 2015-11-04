@@ -31,7 +31,8 @@
 <script src="app.js"></script>
 <!-- Add New Component JS Above -->
 
-<div class="container">
+<div id="wrapper">
+ <!-- Navigation -->
 <div class="navbar navbar-default navbar-fixed-top">
       <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -44,17 +45,8 @@
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li>
-                    <a>Link</a>
-                </li>
-                <li>
-                    <a>Link</a>
-                </li>
-                <li>
-                    <a>Link</a>
-                </li>
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+   <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown">Logs<span class="caret"></span></a>
                     <ul class="dropdown-menu" aria-labelledby="dropdown">
                         <li><a>Default</a></li>
                         <li class="divider"></li>
@@ -64,7 +56,50 @@
                         <li><a>Delta</a></li>
                     </ul>
                 </li>
-
+  <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown">Cases<span class="caret"></span></a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown">
+                        <li><a>Default</a></li>
+                        <li class="divider"></li>
+                        <li><a>Alpha</a></li>
+                        <li><a>Beta</a></li>
+                        <li><a>Gamma</a></li>
+                        <li><a>Delta</a></li>
+                    </ul>
+                </li>
+          <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown">Vessels<span class="caret"></span></a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown">
+                        <li><a>Default</a></li>
+                        <li class="divider"></li>
+                        <li><a>Alpha</a></li>
+                        <li><a>Beta</a></li>
+                        <li><a>Gamma</a></li>
+                        <li><a>Delta</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown">Messages <span class="caret"></span></a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown">
+                        <li><a>Default</a></li>
+                        <li class="divider"></li>
+                        <li><a>Alpha</a></li>
+                        <li><a>Beta</a></li>
+                        <li><a>Gamma</a></li>
+                        <li><a>Delta</a></li>
+                    </ul>
+                </li>
+				<li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown">RFIs<span class="caret"></span></a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown">
+                        <li><a>Default</a></li>
+                        <li class="divider"></li>
+                        <li><a>Alpha</a></li>
+                        <li><a>Beta</a></li>
+                        <li><a>Gamma</a></li>
+                        <li><a>Delta</a></li>
+                    </ul>
+                </li>
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
@@ -73,14 +108,13 @@
             </ul>
 
         </div>
-    </div>
 </div>
   <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
                     <li class="active">
-                  <a href="javascript:;" data-toggle="collapse" data-target="#vessels">Vessels<i class="fa fa-fw fa-caret-down"></i></a>
-                        <ul id="vessels" class="collapse">
+                  <a href="javascript:;" data-toggle="collapse" data-target="#travel">Travel<i class="fa fa-fw fa-caret-down"></i></a>
+                        <ul id="travel" class="collapse">
                             <li>
                                 <a href="#">1</a>
                             </li>
@@ -90,8 +124,8 @@
                         </ul>
                     </li>
                    <li>
-                  <a href="javascript:;" data-toggle="collapse" data-target="#arrivals">Arrivals<i class="fa fa-fw fa-caret-down"></i></a>
-                        <ul id="arrivals" class="collapse">
+                  <a href="javascript:;" data-toggle="collapse" data-target="#people">People<i class="fa fa-fw fa-caret-down"></i></a>
+                        <ul id="people" class="collapse">
                             <li>
                                 <a href="#">Dropdown Item</a>
                             </li>
@@ -101,8 +135,8 @@
                         </ul>
                     </li>
                       <li>
-                  <a href="javascript:;" data-toggle="collapse" data-target="#cases">Cases<i class="fa fa-fw fa-caret-down"></i></a>
-                        <ul id="cases" class="collapse">
+                  <a href="javascript:;" data-toggle="collapse" data-target="#destinations">Destinations<i class="fa fa-fw fa-caret-down"></i></a>
+                        <ul id="destinations" class="collapse">
                             <li>
                                 <a href="#">Dropdown Item</a>
                             </li>
@@ -114,10 +148,6 @@
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
-        </nav>
-
-<div class="container">
-
     <div id="page-wrapper">
 
             <div class="container">
@@ -392,9 +422,6 @@
 
         </div>
         <!-- /#page-wrapper -->
-
-    </div>
-    <!-- /#wrapper -->
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
