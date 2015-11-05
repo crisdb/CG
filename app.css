@@ -7743,6 +7743,6 @@ a.list-group-item-danger.active:focus {
 .iss-main-content {
   margin-top: 70px;
 }
-.nav > li > a {
+.navbar-nav > li > a{
 	color: white;
 }
