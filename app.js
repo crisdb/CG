@@ -5,7 +5,18 @@
     
         angular.module('app').config(function($routeProvider) {
 
-            /* Add New Routes Above */
+             .when('/lant', {
+              controller: "LantController",
+			  templateUrl: "lant/lantHome.html"
+		})
+			.when('/pac, {
+			controller: 'PacController',
+			templateUrl: 'pac/pacHome.html'
+		})
+			.when('/cifer, {
+			controller: 'ciferController',
+			templateUrl: 'cifer/ciferHome.html'
+		})
             $routeProvider.otherwise({redirectTo:'/home'});
 
         });
