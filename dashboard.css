@@ -225,5 +225,14 @@ ul.alert-dropdown {
 .panel-yellow > a:hover {
     color: #df8a13;
 }
+
 .nav > li > a {
-	color: #ffffff}
+	color: #ffffff;
+	}
+	
+.collapse.navbar-collapse a > i {
+	color: gray;
+	}
+	.collapse.navbar-collapse a > i:hover {
+	color: white;
+	}
