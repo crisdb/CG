@@ -5,7 +5,7 @@
 (function (angular) {
     'use strict';
 
-    angular.module('app', ['gridster', 'nvd3', 'ui.bootstrap', 'ui.utils', 'underscore-angularized', 'ngRoute', 'ngAnimate']);
+    angular.module('app', ['gridster', 'nvd3', 'ui.bootstrap', 'ui.utils', 'underscore-angularized', 'ngRoute', 'ngAnimate', 'leaflet-directive']);
 
     angular.module('app').config(function ($routeProvider) {
 

@@ -22,4 +22,10 @@ angular.module('app').controller('MainController', function($scope){
 
     ];
 
+    $scope.center = {
+        lat: 51.505,
+            lng: -0.09,
+            zoom: 8
+    }
+
 });
