@@ -236,3 +236,10 @@ ul.alert-dropdown {
 	.collapse.navbar-collapse a > i:hover {
 	color: white;
 	}
+	.threat{
+		padding: 0 10px 0px 10px;
+}
+/* dark left nav */
+.radio label, .checkbox label  {
+	color: #E4E3E3;
+}
