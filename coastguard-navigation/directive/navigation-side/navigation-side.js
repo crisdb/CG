@@ -1,15 +1,15 @@
 (function(angular){
     'use strict';
     
-    angular.module('app').directive('navigationTop', function() {
+    angular.module('coastguardNavigation').directive('navigationSide', function() {
         return {
             restrict: 'EA',
             scope: {
-                 'logo' : '@',
-                 'navData' : '='
+
             },
-            templateUrl: 'directive/navigation-top/navigation-top.html',
+            templateUrl: 'coastguard-navigation/directive/navigation-side/navigation-side.html',
             link: function(scope, element, attrs, fn) {
+
 
             }
         };
